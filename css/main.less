@@ -1,0 +1,58 @@
+// @import "bootstrap";
+
+@white: #ffffff;
+@gray: #666666;
+@color-primary: #315A88;
+@color-primary-light: #98acc3;
+
+@sm-screen-min-width: 768px;
+@md-screen-min-width: 992px;;
+@lg-screen-min-width: 1200px;
+
+.gradient(@angle, @start, @end) {
+    background: -webkit-linear-gradient(@angle, @start @end);
+    background: -o-linear-gradient(@angle, @start, @end);
+    background: -moz-linear-gradient(@angle, @start, @end);
+    background: linear-gradient(@angle, @start, @end);
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-size: 16px;
+}
+
+.banner {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background: @color-primary;
+    color: @white;
+    .gradient(45deg, @color-primary, @color-primary-light);
+}
+
+.header {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    h1 {
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+
+    h3 {
+        font-weight: 400;
+    }
+}
+
+hr {
+    border-top: 1px solid #eeeeee;
+    width: 85%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.project-title {
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}

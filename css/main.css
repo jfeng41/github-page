@@ -1,5 +1,4 @@
 @import "bootstrap.min.css";
-@import "font-awesome.min.css";
 body {
   color: #333;
 }
@@ -17,14 +16,14 @@ p {
   background: -moz-linear-gradient(45deg, #315A88, #98acc3);
   background: linear-gradient(45deg, #315A88, #98acc3);
 }
-.header {
+#header {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.header h1 {
+#header h1 {
   letter-spacing: 1px;
   font-weight: 500;
 }
-.header h3 {
+#header h3 {
   font-weight: 400;
 }
 hr {

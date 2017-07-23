@@ -31,9 +31,15 @@ hr {
   border-top: 1px solid #ddd;
   width: 85%;
 }
-.project-title {
+#projects .project-title {
   font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 400;
+}
+#projects ul {
+  padding-left: 24px;
+}
+#projects li {
+  font-size: 16px;
 }
 .image-container {
   margin: 15px;

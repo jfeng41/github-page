@@ -4,8 +4,7 @@
 @white: #ffffff;
 @color-text: #333;
 @color-text-secondary: #999;
-@color-primary: #315A88;
-@color-primary-light: #98acc3;
+@color-primary: #1E88E5;
 @color-hr: #ddd;
 
 .gradient(@angle, @start, @end) {
@@ -30,7 +29,7 @@ p {
     padding-bottom: 48px;
     background: @color-primary;
     color: @white;
-    .gradient(45deg, @color-primary, @color-primary-light);
+    .gradient(45deg, @color-primary, fade(@color-primary, 50%));
 }
 
 #header {

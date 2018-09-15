@@ -4,6 +4,6 @@ $(document).ready(function() {
         arrows: true,
         dots: true,
         // adaptiveHeight: true,
-        laztLoad: 'ondemand'
+        lazyLoad: 'ondemand'
     });
 })
